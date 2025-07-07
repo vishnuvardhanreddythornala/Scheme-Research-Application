@@ -563,4 +563,13 @@ def run_app():
 # --- Run the application ---
 if __name__ == "__main__":
     run_app()
+
+
+st.markdown("""
+<hr>
+<div style='text-align: center;'>
+    Developed by <strong>Thornala vishnu vardhan reddy</strong>
+</div>
+""", unsafe_allow_html=True)
+
     
