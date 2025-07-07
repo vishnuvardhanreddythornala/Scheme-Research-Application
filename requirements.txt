@@ -1,0 +1,12 @@
+streamlit
+PyMuPDF
+langchain
+langchain-community
+langchain-groq
+sentence-transformers
+faiss-cpu
+transformers
+torch
+accelerate
+python-dotenv
+unstructured[local-inference]

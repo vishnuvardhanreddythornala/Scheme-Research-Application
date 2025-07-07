@@ -1,0 +1,95 @@
+2025-07-07 09:06:09 | INFO | ==================================================
+2025-07-07 09:06:09 | INFO | NEW SESSION STARTED
+2025-07-07 09:06:09 | INFO | Application started.
+2025-07-07 09:06:09 | INFO | Groq API key loaded.
+2025-07-07 09:06:09 | INFO | Model selected by user: N/A
+2025-07-07 09:06:28 | INFO | Processing started.
+2025-07-07 09:06:53 | INFO | Split into 24 chunks from URLs.
+2025-07-07 09:06:53 | INFO | Total documents collected for embedding: 24
+2025-07-07 09:07:40 | INFO | Use pytorch device_name: cpu
+2025-07-07 09:07:40 | INFO | Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-07-07 09:07:55 | INFO | Loading faiss with AVX2 support.
+2025-07-07 09:07:55 | INFO | Successfully loaded faiss with AVX2 support.
+2025-07-07 09:07:55 | INFO | Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-07 09:07:55 | INFO | FAISS vector store created and saved using save_local().
+2025-07-07 09:08:04 | INFO | User asked: can i know the motive of the scheme?
+2025-07-07 09:08:04 | INFO | Answering question using model: llama3-8b-8192
+2025-07-07 09:08:07 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 09:08:07 | INFO | Answer generated for question: can i know the motive of the scheme?
+2025-07-07 09:08:07 | INFO | Appended QA to session state. Total: 1
+2025-07-07 09:08:34 | INFO | User asked: what is your name?
+2025-07-07 09:08:34 | INFO | Answering question using model: llama3-8b-8192
+2025-07-07 09:08:34 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 09:08:34 | INFO | Answer generated for question: what is your name?
+2025-07-07 09:08:34 | INFO | Appended QA to session state. Total: 2
+2025-07-07 09:09:33 | INFO | User asked: How to Apply for Bima Sakhi Yojana Online 2025
+2025-07-07 09:09:33 | INFO | Answering question using model: llama3-8b-8192
+2025-07-07 09:09:34 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 09:09:34 | INFO | Answer generated for question: How to Apply for Bima Sakhi Yojana Online 2025
+2025-07-07 09:09:34 | INFO | Appended QA to session state. Total: 3
+2025-07-07 09:10:43 | INFO | User asked: what is the name of the scheme?
+2025-07-07 09:10:43 | INFO | Answering question using model: llama3-8b-8192
+2025-07-07 09:10:44 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 09:10:44 | INFO | Answer generated for question: what is the name of the scheme?
+2025-07-07 09:10:44 | INFO | Appended QA to session state. Total: 4
+2025-07-07 09:10:55 | INFO | User triggered Reset Tool.
+2025-07-07 09:10:55 | INFO | Deleted uploaded file during reset: uploads\Guidelines-SCA to SCSP (1).pdf
+2025-07-07 09:10:55 | INFO | ==================================================
+2025-07-07 09:10:55 | INFO | NEW SESSION STARTED
+2025-07-07 09:10:55 | INFO | Application started.
+2025-07-07 09:10:55 | INFO | Groq API key loaded.
+2025-07-07 09:10:55 | INFO | Model selected by user: N/A
+2025-07-07 09:44:01 | INFO | ==================================================
+2025-07-07 09:44:01 | INFO | NEW SESSION STARTED
+2025-07-07 09:44:01 | INFO | Application started.
+2025-07-07 09:44:01 | INFO | Groq API key loaded.
+2025-07-07 09:44:01 | INFO | Model selected by user: N/A
+2025-07-07 09:44:12 | INFO | Processing started.
+2025-07-07 09:44:22 | INFO | Split into 24 chunks from URLs.
+2025-07-07 09:44:22 | INFO | Total documents collected for embedding: 24
+2025-07-07 09:44:38 | INFO | Use pytorch device_name: cpu
+2025-07-07 09:44:38 | INFO | Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-07-07 09:44:49 | INFO | Loading faiss with AVX2 support.
+2025-07-07 09:44:49 | INFO | Successfully loaded faiss with AVX2 support.
+2025-07-07 09:44:49 | INFO | Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-07 09:44:49 | INFO | FAISS vector store created and saved using save_local().
+2025-07-07 09:44:53 | INFO | User clicked Generate Summary.
+2025-07-07 09:44:53 | INFO | Summary generation started.
+2025-07-07 09:44:55 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 09:44:56 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 09:44:57 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 09:44:58 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 09:44:58 | INFO | Summary generation completed.
+2025-07-07 09:45:10 | INFO | User asked: May i know more about scheme
+2025-07-07 09:45:10 | INFO | Answering question using model: llama3-8b-8192
+2025-07-07 09:45:11 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 09:45:11 | INFO | Answer generated for question: May i know more about scheme
+2025-07-07 09:45:11 | INFO | Appended QA to session state. Total: 1
+2025-07-07 09:47:57 | INFO | User triggered Reset Tool.
+2025-07-07 09:47:58 | INFO | ==================================================
+2025-07-07 09:47:58 | INFO | NEW SESSION STARTED
+2025-07-07 09:47:58 | INFO | Application started.
+2025-07-07 09:47:58 | INFO | Groq API key loaded.
+2025-07-07 09:47:58 | INFO | Model selected by user: N/A
+2025-07-07 09:48:07 | INFO | Processing started.
+2025-07-07 09:48:07 | INFO | PDF file uploaded: Guidelines-SCA to SCSP (1).pdf
+2025-07-07 09:48:07 | INFO | Uploaded file saved: uploads\Guidelines-SCA to SCSP (1).pdf
+2025-07-07 09:48:09 | INFO | PDF loaded with 32 pages.
+2025-07-07 09:48:09 | INFO | PDF split into 132 chunks.
+2025-07-07 09:48:09 | INFO | Total documents collected for embedding: 132
+2025-07-07 09:48:09 | INFO | Use pytorch device_name: cpu
+2025-07-07 09:48:09 | INFO | Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-07-07 09:48:30 | INFO | FAISS vector store created and saved using save_local().
+2025-07-07 09:48:35 | INFO | User clicked Generate Summary.
+2025-07-07 09:48:35 | INFO | Summary generation started.
+2025-07-07 09:48:36 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 09:48:37 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 09:48:37 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 09:48:39 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 09:48:39 | INFO | Summary generation completed.
+2025-07-07 09:49:47 | INFO | User asked: what is the theme of the scheme?
+2025-07-07 09:49:47 | INFO | Answering question using model: llama3-8b-8192
+2025-07-07 09:49:48 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-07 09:49:48 | INFO | Answer generated for question: what is the theme of the scheme?
+2025-07-07 09:49:48 | INFO | Appended QA to session state. Total: 1
+2025-07-07 09:49:49 | INFO | Displayed download button for Guidelines-SCA to SCSP (1).pdf in Q1.
