@@ -18,7 +18,7 @@ from langchain_community.document_loaders import PyPDFLoader  # To load PDF file
 from streamlit.components.v1 import html  # For custom HTML like JS injection
 
 # Set page config for wide layout
-st.set_page_config(page_title="Scheme Research Tool", layout="wide")
+st.set_page_config(page_title="Smart Scheme Research App", layout="wide")
 
 #Css block
 st.markdown("""
