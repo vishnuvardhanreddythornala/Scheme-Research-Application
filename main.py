@@ -571,7 +571,7 @@ st.markdown("""
     .footer-container {
         position: fixed;  /* Fixed at bottom */
         bottom: 0;
-        left: 59%;
+        left: 57%;
         transform: translateX(-50%);  /* Centers horizontally */
         text-align: center;
         color: white;
@@ -606,7 +606,7 @@ st.markdown("""
     <div class="footer-container">
         <span class="footer-caption-line"></span>
         <div class="footer-text">
-            Developed by <strong>Thornala Vishnu Vardhan Reddy</strong>
+            Developed by <strong>Thornala Vishnu Vardhan Reddy!</strong>
         </div>
     </div>
 """, unsafe_allow_html=True)
