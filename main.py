@@ -550,63 +550,12 @@ def run_app():
                                     mime="application/pdf",
                                     key=f"download_{idx}_{file_name}"
                                 )
-        
-
                                 logging.info(f"Displayed download button for {file_name} in Q{idx + 1}.")
                             except FileNotFoundError:
                                 logging.warning(f"PDF file not found: {file_name}")
                                 st.warning(f"⚠ File not found: {file_name}")
-                        
-        
-                          
+
 
 # --- Run the application ---
 if __name__ == "__main__":
     run_app()
-
-
-# ----Footer ----
-st.markdown("""
-    <style>
-    .footer-container {
-        position: fixed;  /* Fixed at bottom */
-        bottom: 0;
-        left: 57%;
-        transform: translateX(-50%);  /* Centers horizontally */
-        text-align: center;
-        color: white;
-        padding: 10px 0;
-        width: fit-content;  /* Only as wide as content */
-    }
-
-    .footer-caption-line {
-        display: block;
-        width: 280px;  /* Adjust width as needed */
-        height: 3px;
-        margin: 0 auto 6px auto;
-        background: linear-gradient(90deg, rgba(211,211,211,0) 0%, grey 50%, rgba(211,211,211,0) 100%);
-        border-radius: 2px;
-    }
-
-    .footer-text {
-        font-size: 0.9rem;
-    }
-
-    footer {visibility: hidden;}
-
-    .main .block-container {
-        display: flex;
-        flex-direction: column;
-        min-height: 80vh;
-        justify-content: space-between;
-        align-items: center;
-    }
-    </style>
-
-    <div class="footer-container">
-        <span class="footer-caption-line"></span>
-        <div class="footer-text">
-            Developed by <strong>Thornala Vishnu Vardhan Reddy!</strong>
-        </div>
-    </div>
-""", unsafe_allow_html=True)
