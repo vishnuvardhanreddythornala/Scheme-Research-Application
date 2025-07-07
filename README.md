@@ -1,10 +1,11 @@
 # 🧠 Scheme Research Application
 
-> A Streamlit-based assistant to extract, summarize, and query government schemes using cutting-edge LLM and retrieval technologies.
+ A Streamlit-based assistant to extract, summarize, and query government schemes using cutting-edge LLM and retrieval technologies.
+
 
 
 ## 📑 Table of Contents
-```
+
 - [About the Project](#about-the-project)
 - [Demo](#demo)
 - [Features](#features)
@@ -16,7 +17,7 @@
 - [License](#license)
 - [Contact](#contact)
 
-```
+
 
 ## 📖 About the Project
 
@@ -31,13 +32,12 @@ It combines document parsing, semantic search, and LLM-powered QA to deliver an 
 
 
 ## 🎥 Demo
-```
+
 > [https://smart-scheme-research-app.streamlit.app/]
 
-```
 
 ## 🗂 Demo: Government Scheme Links
-```
+
 Use these sample government scheme URLs to try the app:
 
 - 🔗 [LIC Bima Sakhi Yojana – Sarkari Yojana](https://sarkariyojana.com/lic-bima-sakhi-yojana-apply-online/)
@@ -46,10 +46,9 @@ Use these sample government scheme URLs to try the app:
 
 📌 Tip: Paste any of these URLs in the sidebar under “URLs” and click “Process” to test.
 
-```
+
 
 ## ✨ Features
-```
 
 - 🔗 Accepts multiple government scheme **URLs** or uploads **PDFs**.
 - 📝 summarizes:
@@ -61,10 +60,10 @@ Use these sample government scheme URLs to try the app:
 - 📂 Track source documents and download PDFs.
 - 🧠 Built on LangChain + FAISS for scalable document QA.
 
-```
+
 
 ## 🛠️ Tech Stack
-```
+
 - **Python**
 - **Streamlit**
 - **LangChain**
@@ -72,17 +71,19 @@ Use these sample government scheme URLs to try the app:
 - **HuggingFace Transformers**
 - **Groq (LLM API)**
 
-```
+
 ## 🧬 Clone the Repository
 ```
-git clone https://github.com/vishnuvardhanreddythornala/Scheme-Research-Application.git
-cd Scheme-Research-Application
+git clone https://github.com/vishnuvardhanreddythornala/scheme-research-tool.git
+cd scheme-research-tool
 
 ```
 
 ## ⚙️ Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/scheme-research-tool.git
 
 # Navigate to the project folder
 cd Scheme-Research-Application
@@ -108,7 +109,7 @@ streamlit run main.py
 
 ```
 ## 🚀 Usage
-```
+
 - Paste scheme URLs or upload PDFs in the sidebar.
 
 - Click "Process URLs" to extract and embed the content.
@@ -118,7 +119,7 @@ streamlit run main.py
 - Ask any follow-up questions and get answers with source traceability.
 
 - Download PDFs or visit linked sources as needed.
-```
+
 
 ## 📁 Project Structure
 ```
@@ -129,28 +130,28 @@ scheme-research-tool/
 ├── uploads/                    # Uploaded PDF files
 ├── main.py                     # Main Streamlit application
 ├── requirements.txt            # Python dependencies
-├── .env			                  # API keys (not committed)
+├── .env			 # API keys (not committed)
 ├── .gitignore                  # Ignore logs, uploads, etc.
 └── README file
 
 ```
+
 ## ⚡ Limitations and Future Work
-```
+
 - 🔒 API key must be manually added to .env.
 - 🔍 Summarization accuracy depends on the clarity of source documents.
 - 📄 Current focus is on PDFs and URLs only.
-```
+
 
 ## 🛠 Future Improvements:
-```
+
 - Adding audio/text-to-speech interface for accessibility.
 - Integrating more robust analytics for query and feedback logs.
 - Enhancing support for multilingual documents.
-```
+
 
 ## 📞 Contact
-```
-Name: Thornala Vishnu Vardhan Reddy
-GitHub: @vishnuvardhanreddythornala
-Email: vishnuvardhanreddythornala@gmail.com
-```
+
+- Name  : Thornala Vishnu Vardhan Reddy
+- GitHub: [@vishnuvardhanreddythornala(https://github.com/vishnuvardhanreddythornala)
+- Email : [vishnuvardhanreddythornala@gmail.com]
