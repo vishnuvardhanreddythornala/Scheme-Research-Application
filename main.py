@@ -567,19 +567,35 @@ if __name__ == "__main__":
 # ----Footer ----
 st.markdown("""
     <style>
-    .footer {
+    .footer-container {
         position: fixed;
         bottom: 0;
         width: 100%;
         text-align: center;
         color: white;
-        padding: 10px;
+        padding: 10px 0;
         background-color: #0f0f0f;
+    }
+
+    .footer-line {
+        display: block;
+        width: 150px;
+        height: 2px;
+        background: #FFB6C1;
+        margin: 0 auto 6px auto;
+        border-radius: 2px;
+    }
+
+    .footer-text {
+        font-size: 0.9rem;
     }
     </style>
 
-    <div class="footer">
-        Developed by <strong>Thornala Vishnu Vardhan Reddy</strong>
+    <div class="footer-container">
+        <span class="footer-line"></span>
+        <div class="footer-text">
+            Developed by <strong>Thornala Vishnu Vardhan Reddy</strong>
+        </div>
     </div>
 """, unsafe_allow_html=True)
 
