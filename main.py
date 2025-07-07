@@ -564,18 +564,15 @@ def run_app():
 if __name__ == "__main__":
     run_app()
 
+
 # ----Footer ----
 st.markdown("""
     <style>
     .footer-container {
-        position: fixed;
-        left: 50%;
-        bottom: 0;
-        transform: translateX(-50%);
         text-align: center;
         color: white;
         padding: 10px 0;
-        background-color: #0f0f0f;
+        margin-top: 50px; /* Space from last component above */
     }
 
     .footer-line {
@@ -591,7 +588,10 @@ st.markdown("""
         font-size: 0.9rem;
     }
 
-    /* Override Streamlit container to center footer under main content */
+    /* Hide Streamlit default footer if needed */
+    footer {visibility: hidden;}
+
+    /* Ensure main container content is centered */
     .main .block-container {
         display: flex;
         flex-direction: column;
@@ -606,5 +606,3 @@ st.markdown("""
         </div>
     </div>
 """, unsafe_allow_html=True)
-
-
