@@ -569,12 +569,14 @@ st.markdown("""
     <style>
     .footer-container {
         position: fixed;
+        left: 50%;
         bottom: 0;
-        width: 100%;
+        transform: translateX(-50%);
         text-align: center;
         color: white;
         padding: 10px 0;
         background-color: #0f0f0f;
+        width: 100%;
     }
 
     .footer-line {
@@ -599,4 +601,3 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-    
