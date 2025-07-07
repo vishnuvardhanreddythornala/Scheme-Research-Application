@@ -572,14 +572,15 @@ st.markdown("""
         text-align: center;
         color: white;
         padding: 10px 0;
-        margin-top: 50px; /* Space from last component above */
+        margin-top: auto;
+        margin-bottom: 10px;
     }
 
     .footer-line {
         display: block;
         width: 150px;
         height: 2px;
-        background: #FFB6C1;
+        background: grey;  /* Changed from pink to grey */
         margin: 0 auto 6px auto;
         border-radius: 2px;
     }
@@ -588,13 +589,15 @@ st.markdown("""
         font-size: 0.9rem;
     }
 
-    /* Hide Streamlit default footer if needed */
+    /* Hide Streamlit default footer */
     footer {visibility: hidden;}
 
-    /* Ensure main container content is centered */
+    /* Adjust main container to ensure footer is pushed to bottom */
     .main .block-container {
         display: flex;
         flex-direction: column;
+        min-height: 80vh; /* Ensures enough height for footer to go down */
+        justify-content: space-between;
         align-items: center;
     }
     </style>
