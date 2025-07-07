@@ -576,7 +576,6 @@ st.markdown("""
         color: white;
         padding: 10px 0;
         background-color: #0f0f0f;
-        width: 100%;
     }
 
     .footer-line {
@@ -591,6 +590,13 @@ st.markdown("""
     .footer-text {
         font-size: 0.9rem;
     }
+
+    /* Override Streamlit container to center footer under main content */
+    .main .block-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     </style>
 
     <div class="footer-container">
@@ -600,4 +606,5 @@ st.markdown("""
         </div>
     </div>
 """, unsafe_allow_html=True)
+
 
