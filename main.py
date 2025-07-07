@@ -564,12 +564,23 @@ def run_app():
 if __name__ == "__main__":
     run_app()
 
-
+# ----Footer ----
 st.markdown("""
-<hr>
-<div style='text-align: center;'>
-    Developed by <strong>Thornala vishnu vardhan reddy</strong>
-</div>
+    <style>
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        color: white;
+        padding: 10px;
+        background-color: #0f0f0f;
+    }
+    </style>
+
+    <div class="footer">
+        Developed by <strong>Thornala Vishnu Vardhan Reddy</strong>
+    </div>
 """, unsafe_allow_html=True)
 
     
