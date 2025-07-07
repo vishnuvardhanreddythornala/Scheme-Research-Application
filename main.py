@@ -573,7 +573,7 @@ st.markdown("""
         color: white;
         padding: 10px 0;
         margin-top: auto;
-        margin-bottom: 0px;
+        margin-bottom: auto;
     }
 
     .footer-line {
